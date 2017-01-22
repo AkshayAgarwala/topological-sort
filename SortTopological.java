@@ -4,7 +4,7 @@ import java.io.*;
  * Reads in the input file into a String array.
  * Makes a Graph object.
  */
-public class Project3 {
+public class SortTopological {
 	public static void main (String[] args) throws IOException {
 		FileInputStream fstream = new FileInputStream(args[0]);
 		BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
